@@ -1,5 +1,6 @@
-```markdown
 # ❤️ Heart Disease Prediction System (ML & Streamlit Web App)
+
+An end-to-end Machine Learning web application that predicts patient heart disease risk based on clinical parameters. Built using Python, Scikit-learn, and Streamlit, this system integrates standard feature scaling and a Logistic Regression classifier trained on the Cleveland Heart Disease dataset.
 
 ---
 
@@ -9,30 +10,29 @@
 
 ---
 
-An end-to-end Machine Learning web application that predicts patient heart disease risk based on clinical parameters. Built using Python, Scikit-learn, and Streamlit, this system integrates standard feature scaling and a Logistic Regression classifier trained on the Cleveland Heart Disease dataset.
-
----
-
 ## 📌 Project Overview
-Heart disease is one of the primary causes of morbidity globally. This project delivers a clinical risk assessment tool using supervised machine learning. 
 
-The application accepts 13 key physiological metrics entered by a user through an interactive web interface, processes the inputs using a fitted `StandardScaler` pipeline, and provides real-time binary risk predictions (**Low Risk** vs. **High Risk**).
+Heart disease is one of the primary causes of morbidity globally. This project delivers an interactive clinical risk assessment tool using supervised machine learning. 
+
+The application accepts 13 physiological metrics entered through a web interface, scales the inputs using a `StandardScaler` pipeline fitted on training data distributions, and outputs real-time binary risk predictions (**Low Risk** vs. **High Risk**).
 
 ---
 
-## 🛠️ Tech Stack & Key Libraries
-* **Frontend / Web Framework:** Streamlit
-* **Machine Learning:** Scikit-learn
-* **Data Processing:** Pandas, NumPy
-* **Visualization:** Matplotlib, Seaborn
+## 🛠️ Technical Stack
+
+* **Programming Language:** Python 3.8+
+* **Web Framework / UI:** Streamlit
+* **Machine Learning Framework:** Scikit-learn (`LogisticRegression`, `StandardScaler`)
+* **Data Manipulation & Analysis:** Pandas, NumPy
+* **Data Visualization:** Matplotlib, Seaborn
 * **Model Serialization:** Pickle
 
 ---
 
 ## 🎯 Key Features & System Architecture
 
-* **Interactive Web Interface:** User-friendly UI built with Streamlit allowing custom inputs for all 13 medical parameters.
-* **On-the-Fly Feature Scaling:** Preprocesses user inputs using `StandardScaler` fitted on training feature distributions to prevent model prediction bias.
+* **Interactive Web Interface:** UI built with Streamlit allowing custom inputs for all 13 medical parameters.
+* **On-the-Fly Feature Scaling:** Preprocesses user inputs using `StandardScaler` fitted on training feature distributions to maintain model output integrity.
 * **Trained ML Engine:** Employs a fitted `LogisticRegression` classification model trained on the UCI Cleveland dataset.
 * **Instant Risk Assessment:** Generates color-coded visual alerts indicating low risk or high risk of heart disease.
 
@@ -75,9 +75,7 @@ Ensure Python 3.8+ is installed on your machine.
 ### 2. Clone the Repository
 ```bash
 git clone [https://github.com/supriya20242007/codealphadiseasepredictor.git](https://github.com/supriya20242007/codealphadiseasepredictor.git)
-cd codealphadiseasepredictor
-
-```
+cd codealphadiseasepredictor```
 
 ### 3. Install Dependencies
 
